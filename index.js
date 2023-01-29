@@ -12,6 +12,9 @@ module.exports = {
                 on(event, callback) {
                     this.$on(event, callback);
                 },
+                once(event, callback) {
+                    this.$once(event, callback);
+                },
                 off(event, callback) {
                     this.$off(event, callback);
                 }
